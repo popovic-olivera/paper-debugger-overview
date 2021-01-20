@@ -3,18 +3,14 @@
 
 \usepackage{color}
 \usepackage{url}
-\usepackage[T2A]{fontenc} % enable Cyrillic fonts
-\usepackage[utf8]{inputenc} % make weird characters work
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 
-% \usepackage[english,serbian]{babel}
-\usepackage[english,serbianc]{babel} %ukljuciti babel sa ovim opcijama, umesto gornjim, ukoliko se koristi cirilica
+\usepackage[english,serbianc]{babel}
 
 \usepackage[unicode]{hyperref}
 \hypersetup{colorlinks,citecolor=green,filecolor=green,linkcolor=blue,urlcolor=blue}
-
-\newtheorem{primer}{Пример}[section] %ćirilični primer
-% \newtheorem{primer}{Primer}[section]
 
 \usepackage{listings}
 \definecolor{mygreen}{rgb}{0,0.6,0}
@@ -24,9 +20,9 @@
 \usepackage{etoolbox}
 \apptocmd{\sloppy}{\hbadness 10000\relax}{}{}
 
-\usepackage{pifont}% http://ctan.org/pkg/pifont
-\newcommand{\cmark}{\ding{51}}%
-\newcommand{\xmark}{\ding{55}}%
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}
+\newcommand{\xmark}{\ding{55}}
 
 \usepackage{makecell}
 \usepackage{diagbox}
@@ -60,7 +56,6 @@
   title=\lstname                   % show the filename of files included with \lstinputlisting; also try caption instead of title
 }
 
-% Keywords command
 \providecommand{\keywords}[1]
 {
   \small	
